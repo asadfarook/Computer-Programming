@@ -1,0 +1,235 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+cout<<"*************"<<endl;
+cout<<"*\tprogramming assignment 1  *"<<endl;
+cout<<"*\t computer programming 1   *"<<endl;
+cout<<"\t\tauthor:Asad Farooq"<<endl;
+cout<<"\tDue Date:Thursday, Jan. 24"<<endl;
+cout<<"*************";
+return 0;
+}
+
+
+////////next
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"ccccccccc\t++\t\t++"<<endl;
+    cout<<"cc        \t++\t\t++"<<endl;
+    cout<<"cc       ++++++++++++++   ++++++++++++++"<<endl;
+    cout<<"cc       ++++++++++++++   ++++++++++++++"<<endl;
+    cout<<"cc         \t++\t\t++"<<endl;
+    cout<<"cccccccccc\t++\t\t++"<<endl;
+    return 0;
+}
+
+
+//////next
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  int num1, num2, num3;
+  num1 = 125;
+  num2 = 28;
+  num3 = -25;
+  int average = (num1 + num2 + num3) / 3;
+  cout << "Num 1 = " << num1 << endl;
+  cout << "Num 2 = " << num2 << endl;
+  cout << "Num 3 = " << num3 << endl;
+  cout << "Average = " << average << endl;
+  return 0;
+}
+
+
+/////next
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    double num1,num2,num3;
+    double average;
+    num1=75.35;num2=-35.56;num3=15.76;
+    average=(num1+num2+num3)/3;
+    cout<<"average is"<<average;
+    return 0;
+    
+}
+
+
+
+/////next
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int lenght,widht,area,perimeter;
+    cout<<"enter the lenght"<<endl;
+    cin>>lenght;
+    cout<<"enter the widht"<<endl;
+    cin>>widht;
+    area=lenght*widht;
+    cout<<"area="<<area<<endl;
+    perimeter=2*lenght+2*widht;
+    cout<<"perimeter="<<perimeter<<endl;
+    return 0;
+    
+}
+
+
+//////next
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+  string name;
+  double studyHours;
+  cout << "Please enter your name: ";
+  cin >> name;
+  cout << "Please enter the number of study hours: ";
+  cin >> studyHours;
+  cout << "Hello " << name << "! on Saturday, you need to study " << studyHours;
+  cout << " hours for the exam. " << endl;
+  return 0;
+}
+
+
+///////next
+
+#include <iostream>
+ using namespace std;
+ int main()
+  {
+    double a,b,c,d,e,f;
+    cout << "Please enter five decimal number: ";
+    cin >> a>>b>>c>>d>>e;
+    f=(a+b+c+d+e)/5;
+    cout<<"average is"<<f;
+    return 0;
+  }
+
+
+  //////next
+
+  #include <iostream>
+ using namespace std;
+ int main()
+  {
+    double a,b,c,d,e,f;
+    cout << "Please enter five decimal number: ";
+    cin >> a>>b>>c>>d>>e;
+    f=a+b+c+d+e;
+    cout<<"sum is"<<f;
+    return 0;
+  }
+
+
+
+  /////next
+
+  #include <iostream>
+ using namespace std;
+ int main()
+  {
+    double decimalNum;
+    cout<<"please enter a decimalNum";
+    cin>>decimalNum;
+    return 0;
+  }
+
+
+  //////next
+
+  #include <iostream>
+using namespace std;
+int main()
+{
+    int milesPerGallon, tankCapacity,total;
+    cout << "Please enter the capacity of the tank: ";
+    cin >> tankCapacity;
+    cout << "Please enter the miles per gallons: ";
+    cin >> milesPerGallon;
+    total=tankCapacity*milesPerGallon;
+    cout << "you can drive" << total << "miles on a full tank." << endl;
+       return 0;
+}
+
+
+///next
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int SecondsElapsed,Hours,Minutes,Seconds;
+   const int secondsperminutes=60;
+   const int secondsperhour=60*secondsperminutes;
+   cout<<"please enter the number of second elaspled:";
+   cin>>SecondsElapsed;
+   Hours=SecondsElapsed/secondsperhour;
+   SecondsElapsed=SecondsElapsed%secondsperhour;
+   Minutes=SecondsElapsed/secondsperminutes;
+   Seconds=SecondsElapsed%secondsperminutes;
+   cout<<Hours<<":"<<Minutes<<":"<<Seconds;
+    return 0;
+}
+
+
+
+/////next
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int Hours,Minutes,Seconds,TotalSeconds;
+    const int SecondsPerMinutes=60;
+    const int SecondsPerHours=SecondsPerMinutes*60;
+    cout<<"Please enter the number of Hours,Minutes and Seconds:";
+    cin>>Hours>>Minutes>>Seconds;
+    TotalSeconds=Seconds+(Minutes*SecondsPerMinutes)+Hours+(Hours*SecondsPerHours);
+    cout<<"Total"<<TotalSeconds<<"Seconds";
+    return 0;
+}
+
+
+///////next
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    double originalPrice, salesTaxRate, totalPrice, markupPercentage, salesTaxPrice, markupPrice;
+    cout << "Please enter the original price:Rs";
+    cin >> originalPrice;
+    cout << "Please enter the mark-up percentage: ";
+    cin >> markupPercentage;
+    cout << "Please enter the sales tax percentage: ";
+    cin >> salesTaxRate;
+    markupPrice = originalPrice * (markupPercentage / 100);
+    salesTaxPrice = originalPrice * (salesTaxRate / 100);
+    totalPrice = originalPrice + salesTaxPrice + markupPrice;
+    cout << "Original Price:Rs" << originalPrice << endl;
+    cout << "Sales Tax:Rs" << salesTaxPrice << endl;
+    cout << "Mark-Up:Rs" << markupPrice << endl;
+    cout << "Total Price:Rs" << totalPrice << endl;
+    return 0;
+}
+
+
+
+//////next
+
+
